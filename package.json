@@ -1,0 +1,28 @@
+{
+  "name": "poopthis",
+  "version": "1.0.0",
+  "description": "Returns a string surrounded by the poop emoji (poomoji)",
+  "main": "index.js",
+  "dependencies": {
+    "node-emoji": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charlotteis/poopthis.git"
+  },
+  "keywords": [
+    "emoji",
+    "poomoji",
+    "whatisthepoint"
+  ],
+  "author": "Charlotte Spencer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Charlotteis/poopthis/issues"
+  },
+  "homepage": "https://github.com/Charlotteis/poopthis#readme"
+}
