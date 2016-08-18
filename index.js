@@ -15,7 +15,7 @@ module.exports = function (string) {
 
 module.exports = function pooptimes (string, times) {
   var string = string.trim()
-  var poop = 'aaa'
+  var poop = emoji.get('hankey')
   if (times === 0)
     return string
   return pooptimes(poop + ' ' + string + ' ' + poop, times - 1)
