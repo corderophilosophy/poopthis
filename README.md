@@ -6,11 +6,11 @@ by the poop emoji (poomoji).
 `npm install poopthis`
 
 ```javascript
-var poopthis = require('poopthis')
+const poopthis = require('poopthis')
 
-console.log(poopthis('What is the point of this node package?'))
+console.log(poopthis('What is the point of this node package?', 3))
 ```
 
-Output: :hankey: What is the point of this node package? :hankey:
+Output: :hankey: :hankey: :hankey: What is the point of this node package? :hankey: :hankey: :hankey:
 
 :ok_hand:
