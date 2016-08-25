@@ -7,13 +7,9 @@ var emoji = require('node-emoji')
  * @param string
  */
 
-module.exports = function (string) {
-  var string = string.trim()
-  var poop = emoji.get('hankey')
-  return poop + ' ' + string + ' ' + poop
-}
-
 module.exports = function pooptimes (string, times) {
+  if (times === undefined)
+    times = 1
   var string = string.trim()
   var poop = emoji.get('hankey')
   if (times === 0)
