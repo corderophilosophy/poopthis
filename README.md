@@ -8,7 +8,10 @@ by the poop emoji (poomoji).
 ```javascript
 const poopthis = require('poopthis')
 
-console.log(poopthis('What is the point of this node package?', 3))
+// wrap your text in "crapostrophes"
+const msg = poopthis('What is the point of this node package?', 3)
+
+console.log(msg)
 ```
 
 Output: :hankey: :hankey: :hankey: What is the point of this node package? :hankey: :hankey: :hankey:
