@@ -1,5 +1,7 @@
 # Poopthis
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Charlotteis/poopthis.svg)](https://greenkeeper.io/)
+
 An npm package for Node.js; input a string and a string is returned surrounded
 by the poop emoji (poomoji).
 
